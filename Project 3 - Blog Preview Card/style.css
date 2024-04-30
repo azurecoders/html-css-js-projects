@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Figtree", sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 8px 8px 0px 2px hsl(0, 0%, 7%);
+  cursor: pointer;
+}
+
+.container:hover h1 {
+  transition: all 0.1s ease-in-out;
+  color: hsl(47, 88%, 63%);
+}
+
+.container:hover {
+  transition: all 0.1s ease-in-out;
+
+  box-shadow: 16px 16px 0px 2px hsl(0, 0%, 7%);
+}
+
+.container img {
+  border-radius: 15px;
+}
+
+.container .mini-block {
+  background-color: hsl(47, 88%, 63%);
+  font-weight: bold;
+  color: hsl(0, 0%, 7%);
+  width: fit-content;
+  padding: 6px 8px;
+  font-size: 17px;
+  border-radius: 4px;
+}
+
+.container .date {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.container h1 {
+  font-size: 25px;
+}
+
+.container .para {
+  color: hsl(0, 0%, 50%);
+  font-size: 18px;
+}
+
+.profile {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.profile img {
+  width: 10%;
+}
